@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+  flex-wrap: wrap;
+  background-color: black;
+
+}
+
+.topnav {
+  position:fixed;
+  width:99vw;
+  height: 9vh;
+  background-color: black;
+  overflow: hidden;
+  margin-top: -8px;
+  padding-top: 15px;
+}
+
+.topnav a {
+  float: right;
+  color:dimgray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 6px;
+  padding:5px;
+  padding-right:2%;
+  
+
+}
+
+.topnav a:hover {
+  background-color: black;
+  color:lightgray;
+}
+
+
+
+.topnav header {
+  color: white;
+  margin: 6px;
+  padding: 5px;
+  float: left;
+  text-align:center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+
+.intro h1 {
+  color: white;
+  margin:5px;
+  padding:6px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+.intro p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:x-large;
+  float:left;
+  margin: 10px;
+  padding: 20px;
+  margin-top: -3%;
+  margin-left: 4%;
+}
+
+
+.intro img {
+  width:350px;
+  float:right;
+  padding:8px;
+  margin: 30px;
+  margin-top: 20%;
+}
+
+#quote {
+  display: flex;
+  float: left;
+  color: white;
+  margin: 10%;
+  margin-top: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
