@@ -38,6 +38,8 @@ body {
 
 .topnav header {
   color: white;
+  display:flex;
+  flex-wrap: wrap;
   margin: 6px;
   padding: 5px;
   float: left;
